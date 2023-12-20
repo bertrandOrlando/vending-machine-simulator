@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
           rel="icon"
           href="https://ik.imagekit.io/75bfsfl5j/v-machine_strukdis/vending.jpeg?updatedAt=1703075949352"
         />
-        <title>Ben & Lou Mart</title>
+        <title>Ben & Lou Vending Machine</title>
       </Head>
       <Component {...pageProps} />
     </BalanceProvider>

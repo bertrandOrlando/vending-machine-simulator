@@ -10,13 +10,13 @@ const Navbar = () => {
     <div className="fixed left-0 top-0 z-50 flex w-full items-center justify-between bg-slate-200 bg-opacity-80 px-8 py-3 lg:py-4">
       <Link
         href={"./"}
-        className="text-center text-xl font-semibold	transition hover:scale-105 hover:text-stone-500"
+        className="text-md text-center font-medium	transition hover:scale-105 hover:font-semibold hover:text-stone-700"
       >
-        Ben & Lou Vending Machine
+        Ben & Lou <br /> Vending Machine
       </Link>
       <div className="">
         <Link href={"./addBalance"}>
-          <button className="rounded-2xl bg-slate-800 px-3 py-2 text-white">
+          <button className="rounded-2xl bg-slate-800 px-3 py-2 text-white transition hover:scale-105 hover:bg-slate-950 ">
             Add Balance
           </button>
         </Link>
