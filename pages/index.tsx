@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <main className={montserrat.className}>
       <Navbar />
-      <div className="mt-28"></div>
-      <h1 className="mb-4 text-center text-4xl font-semibold  text-stone-700 drop-shadow-2xl">
+      <div className="pt-28"></div>
+      <h1 className="mb-4  text-center text-4xl  font-semibold text-stone-700 drop-shadow-2xl">
         Ben & Lou
         <br /> Vending Machine
       </h1>
@@ -27,7 +27,7 @@ export default function Home() {
         It's Shop Time..
       </h2>
 
-      <div className="mx-auto my-12 flex max-w-lg flex-wrap items-center justify-center gap-5 rounded-3xl bg-stone-400 px-4  py-8 lg:max-w-xl lg:gap-10">
+      <div className="mx-auto my-12 flex max-w-lg flex-wrap items-center justify-center gap-5 rounded-3xl bg-slate-400 bg-opacity-80  px-4 py-8 lg:max-w-xl lg:gap-10">
         {vendingItems.map((item) => (
           <Card key={item.id} {...item} />
         ))}

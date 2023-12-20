@@ -15,8 +15,8 @@ const addBalance = () => {
   return (
     <main className={poppins.className}>
       <Navbar />
-      <div className="mx-auto mt-28 flex w-full max-w-md flex-col items-center justify-center gap-6">
-        <h2 className="text-2xl font-semibold">Tambah Saldo</h2>
+      <div className="mx-auto flex min-h-screen w-full max-w-md flex-col items-center justify-center gap-6 pt-28">
+        <h2 className="text-3xl font-semibold">Tambah Saldo</h2>
         <div className="align-center flex flex-wrap content-center justify-center gap-x-4 gap-y-3 p-3">
           <ButtonBalance topup={5000} />
           <ButtonBalance topup={10000} />
@@ -24,7 +24,7 @@ const addBalance = () => {
           <ButtonBalance topup={50000} />
           <ButtonBalance topup={100000} />
         </div>
-        <span className="h-1 w-full bg-black" />
+        {/* <span className="h-1 w-full bg-black" /> */}
         {/* <button
           className="m-3 rounded-2xl bg-slate-800 px-4 py-3 text-white transition hover:scale-105 hover:bg-slate-200 hover:font-semibold hover:text-slate-800"
           onClick={() => {
