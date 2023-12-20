@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Rokok",
+    "price": 35000,
+    "image_url": "https://ik.imagekit.io/75bfsfl5j/v-machine_strukdis/Cigarette.jpg?updatedAt=1703074871435"
+  },
+  {
+    "id": 2,
+    "name": "Permen",
+    "price": 15000,
+    "image_url": "https://ik.imagekit.io/75bfsfl5j/v-machine_strukdis/candy.jpg?updatedAt=1703074871340"
+  },
+  {
+    "id": 3,
+    "name": "Kabel Charger",
+    "price": 40000,
+    "image_url": "https://ik.imagekit.io/75bfsfl5j/v-machine_strukdis/cable.jpg?updatedAt=1703074871371"
+  },
+  {
+    "id": 4,
+    "name": "Flashdisk",
+    "price": 150000,
+    "image_url": "https://ik.imagekit.io/75bfsfl5j/v-machine_strukdis/flashdisk.jpg?updatedAt=1703074871368"
+  }
+]
